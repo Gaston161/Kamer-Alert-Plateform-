@@ -1,17 +1,3 @@
-# Traffic-flow-yaounde-
-
-
-​À Yaoundé, se déplacer est un défi quotidien marqué par l'imprévisibilité. Les embouteillages monstres à des points névralgiques comme le "Rond-point Nlongkak" ou la "Poste Centrale" peuvent doubler ou tripler un temps de trajet sans préavis. Cette incertitude n'est pas seulement une perte de temps ; elle a un coût économique réel. Le problème fondamental n'est pas tant le nombre de véhicules que le manque total d'information en temps réel. Nous proposons une solution basée sur le cloud pour créer un système nerveux central pour le trafic de la ville.
-
-Trafik-Flow une Plateforme Cloud de Crowdsourcing pour la Modélisation du Trafic en Temps Réel à Yaoundé.
-​Description du Service
-​"Trafik-Flow" n'est pas une autre application de VTC (comme Yango ou Uber). C'est un service de données intelligent qui transforme des milliers de transporteurs informels (motos-taxis et taxis) en capteurs mobiles pour cartographier le trafic de la ville.
-​Voici comment ça marche :
-​Les Collecteurs de Données (Motos-taxis et Taxis) : Nous offrons une application légère et gratuite aux conducteurs volontaires. En échange de l'activation de leur GPS, qui partage anonymement leur vitesse et leur position, ils reçoivent de petits avantages (par exemple, des alertes sur les accidents ou des zones de contrôle policier signalées par d'autres conducteurs, ou même des micro-paiements sous forme de crédit de communication).
-​La Plateforme (Le Cerveau) : Notre système dans le cloud collecte et traite ce flux massif de données GPS. En agrégeant la vitesse de centaines de véhicules sur un tronçon de route, nos algorithmes peuvent déterminer avec une grande précision si le trafic est fluide (vert), ralenti (orange) ou congestionné (rouge).
-​Les Utilisateurs (Toute la population) : Via une application gratuite ou un simple site web, n'importe qui peut consulter une carte de Yaoundé affichant l'état du trafic en temps réel. Un employé de bureau peut décider de quitter le travail 30 minutes plus tard pour éviter un blocage. Un bus peut adapter son itinéraire. Un service d'ambulance peut trouver le chemin le plus rapide.
-​Justification Technique (Scalabilité, Tolérance aux Pannes, Collaboration)
-​1. Scalability (Gérer un Déluge de Données)
 ​Le système doit être capable de recevoir et traiter les coordonnées GPS de, disons, 5 000 motos-taxis envoyant une mise à jour toutes les 5 secondes. Cela représente 1 000 points de données par seconde. C'est un volume énorme.
 ​Analyse et Justification :
 ​Comparaison : Un système monolithique serait comme un seul agent de la circulation essayant de gérer tout un carrefour à la main pendant l'heure de pointe. Il serait instantanément submergé. Notre architecture en microservices est comme une tour de contrôle aérien avec des contrôleurs spécialisés pour chaque secteur. Un service est dédié uniquement à la réception des données (l'ingestion), un autre au traitement (calculer les vitesses moyennes), et un troisième à la distribution (afficher la carte).
