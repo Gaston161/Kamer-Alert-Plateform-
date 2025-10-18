@@ -1,5 +1,16 @@
 Brief summary :
 Ce projet nommé Kamer-Alert  propose le développement d'une plateforme complète de notification et de communication basée sur le cloud, spécifiquement conçue pour combler le fossé critique de communication entre les fournisseurs de services publics, les institutions gouvernementales et les citoyens à travers le Cameroun. La plateforme vise à résoudre le problème persistant de communication inadéquate, retardée ou inexistante concernant les services essentiels tels que l'approvisionnement en électricité d'ENEO, la distribution d'eau de Camwater, les services de télécommunications, les informations de facturation, les annonces de santé publique, les décrets gouvernementaux et les alertes d'urgence.
+
 Actuellement, les citoyens à Yaoundé et à travers le Cameroun subissent des perturbations fréquentes dans leur vie quotidienne en raison de coupures d'électricité inattendues, d'interruptions d'approvisionnement en eau et de maintenance des services sans notification préalable. L'infrastructure de communication existante repose largement sur la livraison physique de factures, des annonces radio sporadiques et des canaux informels de bouche-à-oreille, qui sont inefficaces, coûteux et ne parviennent pas à atteindre des portions significatives de la population en temps opportun. Cette défaillance de communication entraîne des conséquences négatives tangibles, notamment des pénalités financières injustifiées pour des retards de paiement de factures que les citoyens n'ont jamais reçues, l'incapacité de se préparer aux interruptions de service programmées, la confusion concernant les calculs de consommation et l'exactitude de la facturation, ainsi que le manque de sensibilisation aux informations critiques de santé publique ou de sécurité.
+
 La plateforme proposée exploite l'architecture des systèmes distribués et les technologies de cloud computing pour créer une solution évolutive, tolérante aux pannes et collaborative qui transforme fondamentalement la façon dont l'information circule des fournisseurs de services et des entités gouvernementales vers les citoyens. Le système permettra à plusieurs organisations de publier des notifications simultanément, permettra aux citoyens de s'abonner à des catégories d'alertes personnalisées en fonction de leurs besoins et emplacements spécifiques, fournira une priorisation intelligente des messages en fonction de l'urgence et de la pertinence, et maintiendra une disponibilité continue même pendant les pannes d'infrastructure ou les conditions de charge maximale.
+
+Forker le référentiel.
+Créez une nouvelle branche : git checkout -b feature-branch.
+Validez vos modifications : git commit -m "Ajouter une fonctionnalité".
+Pousser vers la branche : git push origin feature-branch.
+Soumettre une demande d'extraction.
+Contact Chef de projet : KEDE GASTON MAXIME E-mail : kedegaston.maxime@ictuniversity.edu.cm 
+GitHub : https://github.com/Gaston161/Kamer-Alert-Plateform-
+Institution : ICT UNIVERSITY
 
